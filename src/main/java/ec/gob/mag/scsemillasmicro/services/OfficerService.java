@@ -1,4 +1,4 @@
-package ec.gob.mag.schema.services;
+package ec.gob.mag.scsemillasmicro.services;
 
 import java.util.List;
 import java.util.Optional;
@@ -9,9 +9,9 @@ import org.springframework.context.MessageSource;
 import org.springframework.context.i18n.LocaleContextHolder;
 import org.springframework.stereotype.Service;
 
-import ec.gob.mag.schema.domain.Officer;
-import ec.gob.mag.schema.exception.NotFoundException;
-import ec.gob.mag.schema.repository.OfficerRepository;
+import ec.gob.mag.scsemillasmicro.domain.Officer;
+import ec.gob.mag.scsemillasmicro.exception.NotFoundException;
+import ec.gob.mag.scsemillasmicro.repository.OfficerRepository;
 
 @Service("officerService")
 public class OfficerService {

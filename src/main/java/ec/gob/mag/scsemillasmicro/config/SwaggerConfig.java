@@ -1,4 +1,4 @@
-package ec.gob.mag.schema.config;
+package ec.gob.mag.scsemillasmicro.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
