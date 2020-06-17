@@ -19,7 +19,7 @@ public class SwaggerConfig {
 	@Bean
 	public Docket api() {
 		return new Docket(DocumentationType.SWAGGER_2).select()
-				.apis(RequestHandlerSelectors.basePackage("ec.gob.mag.schema.controller")).paths(PathSelectors.any())
+				.apis(RequestHandlerSelectors.basePackage("ec.gob.mag.scsemillasmicro.controller")).paths(PathSelectors.any())
 				.build();
 	}
 
