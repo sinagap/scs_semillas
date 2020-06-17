@@ -15,21 +15,21 @@ import javax.persistence.Table;
 public class Inspectores implements Serializable {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@SequenceGenerator(name="inspectores_inspector_id_seq", sequenceName = "inspectores_inspector_id_seq")
+	@SequenceGenerator(name="inspectores_ins_id_seq", sequenceName = "inspectores_ins_id_seq")
 	
-	@Column(name= "inspector_id")
+	@Column(name= "ins_id")
 	private Long inspectorid;
-	@Column(name= "inspector_cedula")
+	@Column(name= "ins_cedula")
 	private String inspectorcedula;
-	@Column(name= "inspector_nombre")
+	@Column(name= "ins_nombre")
 	private String inspectornombre;
-	@Column(name= "inspector_ubi_id")
+	@Column(name= "ins_ubi_id")
 	private Long inspectorubiid;
-	@Column(name= "inspector_correo")
+	@Column(name= "ins_correo")
 	private String inspectorcorreo;
-	@Column(name= "inspector_telefono")
+	@Column(name= "ins_telefono")
 	private String inspectortelefono;
-	@Column(name= "inspector_estado")
+	@Column(name= "ins_estado")
 	private Boolean inspectorestado;
 	
 	
