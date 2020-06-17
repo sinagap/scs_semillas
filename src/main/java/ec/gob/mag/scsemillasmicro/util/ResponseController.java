@@ -1,4 +1,4 @@
-package ec.gob.mag.schema.util;
+package ec.gob.mag.scsemillasmicro.util;
 
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package ec.gob.mag.schema.exception;
+package ec.gob.mag.scsemillasmicro.exception;
 
 import java.util.Date;
 

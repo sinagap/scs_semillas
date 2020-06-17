@@ -1,4 +1,4 @@
-package ec.gob.mag.schema.controller;
+package ec.gob.mag.scsemillasmicro.controller;
 
 import java.util.List;
 
@@ -13,9 +13,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import ec.gob.mag.schema.domain.Inspectores;
-import ec.gob.mag.schema.services.InspectoresService;
-
+import ec.gob.mag.scsemillasmicro.domain.Inspectores;
+import ec.gob.mag.scsemillasmicro.services.InspectoresService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;

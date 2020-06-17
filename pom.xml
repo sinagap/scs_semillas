@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>ec.gob.mag</groupId>
-	<artifactId>micro_template</artifactId>
+	<artifactId>micro_scsemillas</artifactId>
 	<version>0.0.1</version>
 	<packaging>war</packaging>
 
@@ -77,7 +77,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>micro_template</finalName>
+		<finalName>micro_semillas</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
